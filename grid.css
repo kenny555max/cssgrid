@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+.grid-item{
+    padding: 20px 20px 20px 20px;
+}
+.grid-item1{
+    background-color: red;
+}
+.grid-item2{
+    background-color: navy;
+}
+.grid-item3{
+    background-color: black;
+}
+.grid-item4{
+    background-color: blueviolet;
+}
+.grid-item5{
+    background-color: aqua;
+}
+.grid-item6{
+    background-color: yellow;
+}
